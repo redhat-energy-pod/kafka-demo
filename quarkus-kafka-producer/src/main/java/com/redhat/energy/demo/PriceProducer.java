@@ -2,7 +2,6 @@ package com.redhat.energy.demo;
 
 import io.smallrye.mutiny.Multi;
 import lombok.extern.slf4j.Slf4j;
-import org.eclipse.microprofile.reactive.messaging.Incoming;
 import org.eclipse.microprofile.reactive.messaging.Outgoing;
 
 import javax.enterprise.context.ApplicationScoped;
