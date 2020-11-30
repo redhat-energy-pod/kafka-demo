@@ -1,0 +1,15 @@
+kafka:
+  bootstrap:
+    servers: localhost:9092
+
+mp:
+  messaging:
+    incoming:
+      prices:
+        connector: smallrye-kafka
+        #group:
+          #id: consumer-1
+        key:
+          deserializer: org.apache.kafka.common.serialization.StringDeserializer
+        value:
+          deserializer: com.redhat.energy.kafka.consumer.PriceDeserializer
