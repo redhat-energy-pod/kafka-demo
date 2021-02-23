@@ -17,3 +17,9 @@
 
 `cd quarkus-kafka-consumer`  
 `./mvnw clean quarkus:dev`
+
+# Other Steps
+
+Restart Consumer with consumer group id uncommented
+
+Show Price Consumer Kamel Route
